@@ -1,0 +1,128 @@
+/* Style de mi pagina */
+body{
+        /*
+        background-color: #5590f5;
+        color:rgba(255, 255, 255, 0.945);
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        */
+        /*https://www.piedmontplastics.com/img/asset/cGFnZV9idWlsZGVyL2JsdWUtcGxhc3RpYy1waXBlcy5qcGc/blue-plastic-pipes.jpg?w=1024&h=512&fit=crop&fm=webp&q=85&s=0ab579f1b108748de3d44974b64e0320 
+        */
+        
+        background-image: url('./img/Screenshot\ 2026-09-08\ 153840.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+    
+
+    header{
+        display: flex;
+        font-family: "Plus Jakarta Sans Variable", "Helvetica Neue", Arial, sans-serif;
+        background-color:#f8fbfc;
+        color: #0b2b47;
+        text-align: center;
+        padding: 8px 20px;
+        justify-content: space-between;
+    
+        height: 68px;
+    
+    }
+        header .logo{
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            margin-right: 20px;
+        }
+
+
+    nav ul {
+        display: flex;
+        
+        }
+
+    nav ul li {
+        padding-left: 35px;
+        list-style: none;
+    }
+
+    nav.navigation-languaje ul li{
+        padding-left: 15px;
+    }
+
+    nav ul li a
+    {
+        color: #333333;
+        text-decoration: solid;
+        font-size: 15px;
+        cursor: pointer;
+        /*border-bottom-color: (70, 97, 122);*/
+        font-family: "Plus Jakarta Sans Variable", "Helvetica Neue", Arial, sans-serif;
+    }
+
+    nav ul li a:hover, nav ul li a.active{
+        color: #3f82f4;
+    }
+
+    .banner{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* background-color: #3f82f4; */
+        color:white;
+        height: 330px;
+    }
+
+    .banner img{
+        width: 100%;
+    }
+
+    content{
+        text-align: center;
+        min-height: calc(100vh - 434px);
+    }
+
+    #mainTitle{
+        font-family: Arial, Helvetica, sans-serif;
+        color:blue;
+        cursor: pointer;
+        font-size: 36px;
+        margin-top: 20px;
+    }
+
+    .parrafos{
+        font-family: Arial, Helvetica, sans-serif;
+        color:white;
+        cursor: pointer;
+        font-size: 36px;
+        margin-top: 20px;
+    }
+    content p{
+        font-size: 50px;
+        margin-top: 0px;
+        margin-bottom: 20px;
+    }
+
+    content .items{
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+        gap: 25px;
+    }
+
+    content .items .item img{
+        height: 180px;
+        width: 260px;
+    }
+
+    footer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #FAFAFA;
+        color:#333333;
+        height: 44px;
+    }
+    
+}
