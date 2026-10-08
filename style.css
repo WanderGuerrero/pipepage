@@ -9,11 +9,11 @@ body{
         /*https://www.piedmontplastics.com/img/asset/cGFnZV9idWlsZGVyL2JsdWUtcGxhc3RpYy1waXBlcy5qcGc/blue-plastic-pipes.jpg?w=1024&h=512&fit=crop&fm=webp&q=85&s=0ab579f1b108748de3d44974b64e0320 
         */
         
-        background-image: url('./img/Screenshot\ 2026-09-08\ 153840.jpg');
+        /* background-image: url('./img/minimalist-construction-pvc-pipes-composition.jpg');
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
-        background-attachment: fixed;
+        background-attachment: fixed; */
     
 
     header{
@@ -91,13 +91,7 @@ body{
         margin-top: 20px;
     }
 
-    .parrafos{
-        font-family: Arial, Helvetica, sans-serif;
-        color:white;
-        cursor: pointer;
-        font-size: 36px;
-        margin-top: 20px;
-    }
+
     content p{
         font-size: 50px;
         margin-top: 0px;
@@ -114,6 +108,14 @@ body{
     content .items .item img{
         height: 180px;
         width: 260px;
+    }   
+    
+    .parrafos{
+        font-family: Arial, Helvetica, sans-serif;
+        color:rgb(119, 208, 216);
+        cursor: pointer;
+        font-size: 36px;
+        margin-top: 20px;
     }
 
     footer{
