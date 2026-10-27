@@ -1,15 +1,16 @@
 /* Style de mi pagina */
 body{
-        /*
-        background-color: #5590f5;
-        color:rgba(255, 255, 255, 0.945);
+        background:linear-gradient(to bottom, #009dff, #075897);
+        
+        
+        /* color:rgba(255, 255, 255, 0.945);
         margin: 0;
         font-family: Arial, Helvetica, sans-serif;
-        */
-        /*https://www.piedmontplastics.com/img/asset/cGFnZV9idWlsZGVyL2JsdWUtcGxhc3RpYy1waXBlcy5qcGc/blue-plastic-pipes.jpg?w=1024&h=512&fit=crop&fm=webp&q=85&s=0ab579f1b108748de3d44974b64e0320 
-        */
         
-        /* background-image: url('./img/minimalist-construction-pvc-pipes-composition.jpg');
+        https://www.piedmontplastics.com/img/asset/cGFnZV9idWlsZGVyL2JsdWUtcGxhc3RpYy1waXBlcy5qcGc/blue-plastic-pipes.jpg?w=1024&h=512&fit=crop&fm=webp&q=85&s=0ab579f1b108748de3d44974b64e0320 
+        
+        
+        background-image: url('./img/minimalist-construction-pvc-pipes-composition.jpg');
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
@@ -23,7 +24,7 @@ body{
         font-family: "Plus Jakarta Sans Variable", "Helvetica Neue", Arial, sans-serif;
         position: fixed;
         top:0%;
-        background-color:rgb(0, 157, 255);
+        background-color:#009dff;
         color: white;
         text-align: center;
         padding: 8px 20px;
@@ -33,10 +34,10 @@ body{
     
     }
 
-    header .logo{
+    .logo img{
         height: 50px;
         width: 57px;
-        border-radius: 50%;
+        border-radius: 10%;
         margin-right: 20px;
     }
 
@@ -85,37 +86,68 @@ body{
         text-align: center;
         min-height: calc(100vh - 434px);
     }
-
-    #mainTitle{
-        margin-top: 105px;
-        font-family: Arial, Helvetica, sans-serif;
-        color:blue;
-        cursor: pointer;
-        font-size:60px;
-        margin-top: 20px;
-    }
-
-
     content p{
-        font-size: 50px;
+        /* font-size: 50px; */
         margin-top: 0px;
         margin-bottom: 20px;
     }
+    #block{
+        display: block;
+        font-family: "Plus Jakarta Sans Variable", "Helvetica Neue", Arial, sans-serif;
+        font-weight: bold;
+        color:white;
+        font-size: 74px;
+        text-shadow: 0px 0px 7px #acbdcb;        
+    }
+    #block-text{
+        font-family: "Plus Jakarta Sans Variable", "Helvetica Neue", Arial, sans-serif;
+        color:#00c4ff;
+        font-size: 60px;
+        font-weight: bold;
+        display: block;
+        text-shadow: 0px 0px 3.5px #acbdcb;        
+
+
+    }
+    #mainTitle{
+        margin-top: 84px;
+        font-family:Helvetica , sans-serif, Arial ;
+        color:white;
+        cursor: pointer;
+        font-size:60px;
+    }
+    #mainContent{
+
+        margin-top: 20px;
+        font-family: Helvetica,Plus Jakarta Sans Variable;
+        /* font-family: Arial,  sans-serif; */
+        color:#acbdcb;
+        font-size: 24px;
+        /*FF6200 sapote duro*/
+    }
+
 
     content .items{
         display: flex;
         justify-content: center;
         margin-top: 20px;
         gap: 25px;
+
     }
 
-    content .items .item img{
-        height: 180px;
-        width: 260px;
+    content figure img{
+        height: 500px;
+        width: 320px;
+        border-radius: 30px;
     }   
+    content figure img:hover{
+        transform: scale(1.2);
+        transition: all 0.4s ease-in-out 0.2s;
+
+    }
     
-    .parrafos{
-        font-family: Arial, Helvetica, sans-serif;
+    figcaption{
+        font-family: Helvetica, Arial, sans-serif;
         color:rgb(119, 208, 216);
         cursor: pointer;
         font-size: 36px;
